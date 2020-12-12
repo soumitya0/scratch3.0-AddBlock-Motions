@@ -1,0 +1,27 @@
+Add custom blocks on motion icon 
+
+
+ ****scratch-blocks**************
+
+1. Open blocks_verticval
+    -> 1.1 (i want to add my block on motion menu show i will open motion.js)
+   
+    -> 1.2 open motion.js 
+        -> 1.2.1 add blockly json
+   
+    ->1.3 open msg/message.js
+        -> add your block message
+
+    ->IMP TO SAVE THE UPDATE IN MOTION.JS FILE 
+             npm run prepublish
+
+
+
+2-> Open scratch-gui
+
+    -> 2.1 src/lib/make-toolbox-xml.js
+            add block
+
+3-> Open scratch-vm
+    -> src/blocks/scratch3_motion.js
+     to add functionality

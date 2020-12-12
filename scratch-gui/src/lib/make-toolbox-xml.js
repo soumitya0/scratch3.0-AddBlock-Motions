@@ -271,11 +271,23 @@ const motion = function (isStage, targetId) {
         </block>
 
 
+        <block type="DropDownWORK">
+          <field name="lightColor"></field>
+          <field name="switch"></field>  
+        </block>
+
+
         <block type="lightSwitch">
           <field name="lightColor"></field>
           <field name="switch"></field>  
         </block>
 
+
+        <block type="humanoidName">
+          <field name="NAME_Humanoid"></field>  
+        </block>
+
+        
 
         
 

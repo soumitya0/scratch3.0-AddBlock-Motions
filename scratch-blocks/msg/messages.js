@@ -35,6 +35,8 @@ goog.require("Blockly.Msg");
 
 // soumitya Block
 Blockly.Msg.SOUMITYA_LIGHTSWITCH = "Turn %1 %2";
+Blockly.Msg.SOUMITYA_LIGHTSWITCH = "Turn %1 %2"
+Blockly.Msg.SOUMITYA_HUMANOID_NAME = "%1 %2";
 
 // Control blocks
 Blockly.Msg.CONTROL_FOREVER = "forever";

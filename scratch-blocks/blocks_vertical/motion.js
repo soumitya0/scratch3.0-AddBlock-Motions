@@ -82,6 +82,79 @@ Blockly.Blocks["lightSwitch"] = {
   },
 };
 
+
+
+Blockly.Blocks["DropDownWORK"] = {
+  init: function () {
+    this.jsonInit({
+      message0: Blockly.Msg.SOUMITYA_DropDownWORK,
+      args0: [
+        {
+          type: "field_dropdown",
+          name: "color",
+          options: [
+            ["Red", "R"],
+            ["Green", "G"],
+            ["Blue", "B"],
+            ["all", "all"],
+          ],
+        },
+        {
+          type: "field_dropdown",
+          name: "switch",
+          options: [
+            ["on", "on"],
+            ["off", "off"],
+          ],
+        },
+      ],
+      previousStatement: null,
+      nextStatement: null,
+      colour: 75,
+      tooltip: "",
+      helpUrl: "",
+    });
+  },
+};
+
+
+
+
+Blockly.Blocks["humanoidName"] = {
+  init: function () {
+    this.jsonInit({
+        message0: Blockly.Msg.SOUMITYA_HUMANOID_NAME,
+        args0: [
+          {
+            type: "field_image",
+            src: "https://www.flaticon.com/svg/static/icons/svg/1876/1876144.svg",
+            width: 50,
+            height: 50,
+            alt: "*",
+            flipRtl: false
+          },
+          {
+            type: "field_input",
+            name: "NAME_Humanoid",
+            text: "Enter humanoid Name"
+          }
+        ],
+        previousStatement: null,
+        nextStatement: null,
+        colour: 345,
+        tooltip: "",
+        helpUrl: ""
+      }
+      
+    );
+  },
+};
+
+
+
+
+
+
 Blockly.Blocks["motion_turnright"] = {
   /**
    * Block to turn right.

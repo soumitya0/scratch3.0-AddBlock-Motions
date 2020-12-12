@@ -18,6 +18,8 @@ class Scratch3MotionBlocks {
     getPrimitives() {
         return {
             lightSwitch: this.lightSwitchX,
+            DropDownWORK : this.DropDownWORKX,
+            humanoidName: this.humanoidNameX,
             motion_movesteps: this.moveSteps,
             motion_gotoxy: this.goToXY,
             motion_goto: this.goTo,
@@ -72,6 +74,20 @@ class Scratch3MotionBlocks {
         console.log(dropdown_switch);
     }
 
+    DropDownWORKX(agrs, util) {
+        const dropdown_color = Cast.toString(agrs.color);
+        const dropdown_switch = Cast.toString(agrs.switch);
+
+        console.log("yes");
+
+        console.log(dropdown_color);
+        console.log(dropdown_switch);
+    }
+    humanoidNameX(agrs,util){
+        console.log('working humanoidNameX')
+    }
+
+    
     moveSteps(args, util) {
         const steps = Cast.toNumber(args.STEPS);
         const radians = MathUtil.degToRad(90 - util.target.direction);
